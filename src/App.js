@@ -7,12 +7,19 @@ function App() {
           <NavBar />
       </header>
       <div className="h-screen">
-        <h1 id="services">Services</h1>
-        <p>lorem</p>
+        <p>imagen</p>
       </div>
-      <h1 id="portfolio">Portfolio</h1>
-      <h1 id="about">About</h1>
-      <h1 id="contact">Contact</h1>
+      <h1>Acerca de mi</h1>
+      {/* <p>
+        Hola! soy Sebastián Núñez, actualmente estoy estudiando Ingeniería Informática, 
+        terminaré la carrera en diciembre de 2021. Me apasiona el mundo del desarrollo de 
+        aplicaciones tanto web como móbiles, por lo que no pierdo la oportunidad de aprender 
+        cosas nuevas y estar aplicando mis conocimientos.  
+      </p> */}
+      <h1 id="services">Servicios</h1>
+      <h1 id="portfolio">Portafolio</h1>
+      <h1 id="about">Acerca</h1>
+      <h1 id="contact">Contacto</h1>
     </div>
   );
 }
